@@ -1,11 +1,11 @@
 import React from 'react';
 
-import EVENT_HANDLER from './EVENT_HANDLER/event'
+import HOOKS_USESTATE1 from './HOOKS_USESTATE/useState'
 
 function App() {
   return (
    <div>
-    <EVENT_HANDLER/>
+    <HOOKS_USESTATE1/>
    </div>
   );
 }
