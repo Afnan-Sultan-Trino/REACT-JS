@@ -1,11 +1,20 @@
 import React from 'react';
 
-import Components from './Componets/FORMS/FORM'
+import Child from './Componets/FORMS/STATE_LIFTING/Child';
 
 function App() {
+ 
+  const data="I am from parent (App)"
+
+
+  const handleChildData=(childData)=>{  //creating methods for passing child data to parent
+      
+    console.log(childData)
+  }
+
   return (
    <div>
-    <Components/>
+    <Child data={data} onChildData={handleChildData}/>
    </div>
   );
 }
