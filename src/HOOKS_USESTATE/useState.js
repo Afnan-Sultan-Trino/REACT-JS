@@ -4,7 +4,9 @@ export default function useStateExample() {
 
     const[count,setCount]=useState(0)
     const handleIncrement=()=>{
-        setCount(count+1)
+        setCount((count)=>count+1) //always recommended to use previous state such as (count)=>
+        setCount((count)=>count+1)
+        setCount((count)=>count+1)
     }
 
 
