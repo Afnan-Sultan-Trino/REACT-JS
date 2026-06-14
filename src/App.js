@@ -1,22 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Home from './PROJECT1_TODO/Home'
 
-import Child from './Componets/FORMS/STATE_LIFTING/Child';
-
-function App() {
- 
-  const data="I am from parent (App)"
-
-
-  const handleChildData=(childData)=>{  //creating methods for passing child data to parent
-      
-    console.log(childData)
-  }
-
+const App = () => {
   return (
-   <div>
-    <Child data={data} onChildData={handleChildData}/>
-   </div>
-  );
+    <div>
+      <Home/>
+    </div>
+  )
 }
 
-export default App;
+export default App

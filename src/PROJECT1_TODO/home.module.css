@@ -1,0 +1,10 @@
+.container{
+
+    flex-direction: column;
+    background-color: rgb(27, 26, 26);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 36, 36);
+}
