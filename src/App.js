@@ -1,11 +1,11 @@
 import React from 'react'
-import Toggle from './TOGGLE/Toggle'
+import UseEffect from './HOOKS_USEEFFECT/UseEffect'
 
 
 const App = () => {
   return (
     <div>
-      <Toggle/>
+      <UseEffect/>
     </div>
   )
 }
