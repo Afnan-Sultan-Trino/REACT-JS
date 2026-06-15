@@ -1,10 +1,11 @@
 import React from 'react'
-import Home from './PROJECT1_TODO/Home'
+import Toggle from './TOGGLE/Toggle'
+
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      <Toggle/>
     </div>
   )
 }
