@@ -1,11 +1,12 @@
 import React from 'react'
-import UseEffect from './HOOKS_USEEFFECT/UseEffect'
+
+import DataFetch from './HOOKS_USEEFFECT/DataFetch'
 
 
 const App = () => {
   return (
     <div>
-      <UseEffect/>
+      <DataFetch/>
     </div>
   )
 }
